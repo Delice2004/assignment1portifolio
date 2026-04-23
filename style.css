@@ -514,5 +514,17 @@ section {
     font-family: 'IM Fell Great Primer', serif;
 }
 .about {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'IM Fell great primer', cursive;
+}
+.hero img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    transition: transform 0.3s ease;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
 }
